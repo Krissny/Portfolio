@@ -1,0 +1,82 @@
+*{
+    font-family:'Subjectivity Light';
+}
+@font-face {
+    font-family: 'Subjectivity Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Subjectivity Medium'), url('fonts/Subjectivity-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Subjectivity Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Subjectivity Light'), url('fonts/Subjectivity-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Patriot Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Patriot Medium'), url('fonts/Patriot-Medium.woff') format('woff');
+}
+h1{
+    font-family: 'Patriot Medium' ;
+}
+
+span,h2{
+    font-family: 'Subjectivity Medium';
+}
+p,li{
+    font-size: 1.5em;
+    line-height: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    gap: 15px;
+}
+
+.nav{
+    background-color: #5271FF;
+    color: white;
+}
+.nav ul {
+    list-style: none;
+    position: sticky;
+    top: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.nav ul li{
+    align-self: center;
+}
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    padding-top: 3%;
+}
+.hero img{
+    width: 80%;
+    object-fit: contain;
+    border-radius: 18px
+}
+.align{
+    padding-left: 10%;
+}
+.icon{
+ width: 32px; 
+ filter: invert(1);  
+}
+.resize{
+    width: 28px;
+}
+.pic{
+    width: 60%;
+    object-fit: contain;
+    border-radius: 18px
+}
