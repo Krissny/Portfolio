@@ -48,7 +48,7 @@ p,li{
     padding: 15px;
     display: flex;
     flex-direction: column;
-    gap: 31px;
+    gap: 40px;
 }
 .nav ul li{
     align-self: center;
@@ -79,4 +79,57 @@ p,li{
     width: 60%;
     object-fit: contain;
     border-radius: 18px
+}
+.content{
+    padding-bottom:3%;
+}
+.form{
+    padding-top:2% ;
+}
+.contact {
+    display: flex;
+    width: min(80%,500px);
+    padding: 18px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 16px
+}
+input{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 68%;
+    margin-bottom: 5%;
+    border: 2px solid grey;
+}
+textarea{
+    border-radius: 8px;
+    font-size: 1.1em;
+    padding: 10px;
+    resize: none;
+}
+form{
+    font-size: 1.2em;
+}
+form button{
+    width: min(53%,200px);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    background-color: #5271FF; ;
+    color: white;
+}
+footer{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+}
+
+.icon:hover{
+    opacity: 0.8;
+}
+.miniCon{
+    padding-bottom: 30px;
 }
