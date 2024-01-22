@@ -1,5 +1,5 @@
 *{
-    font-family:'Subjectivity Light';
+    font-family:'Subjectivity Light';;
 }
 html{
     scroll-behavior: smooth;
@@ -26,7 +26,12 @@ html{
 h1{
     font-family: 'Patriot Medium' ;
 }
-
+h2{
+    margin-top: 10px;
+}
+.first{
+    margin-bottom: -20px;
+}
 span,h2{
     font-family: 'Subjectivity Medium';
 }
@@ -37,7 +42,7 @@ p,li{
 .container{
     display: grid;
     grid-template-columns: 1fr 8fr;
-    gap: 15px;
+    gap: 65px;
 }
 
 .nav{
@@ -139,4 +144,50 @@ form button{
 }
 .miniCon{
     padding-bottom: 10px;
+}
+
+/* logo */
+.logo{
+    width: 65px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: -77px;
+}
+.social h2{
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width:450px) {
+    .align{
+        padding-left: 0;
+    }
+    p,li{
+        font-size: 1.2em;
+    }
+    .container{
+        gap: 45px;
+    }
+    .hero img{
+        width: 100%;
+    }
+    .pic{
+        width: 90%;
+    }
+    form{
+        font-size: 0.8em;
+    }
+    .contact {
+        width: min(80%,200px);
+        padding: 10px;
+        gap: 5px;
+    }
+    .logo{
+        width: 35px;
+    }
+    .social{
+        margin-left: -40px;
+    }
 }
