@@ -1,6 +1,9 @@
 *{
     font-family:'Subjectivity Light';
 }
+html{
+    scroll-behavior: smooth;
+}
 @font-face {
     font-family: 'Subjectivity Medium';
     font-style: normal;
@@ -103,6 +106,7 @@ input{
     border: 2px solid grey;
 }
 textarea{
+    width: 90%;
     border-radius: 8px;
     font-size: 1.1em;
     padding: 10px;
@@ -119,10 +123,13 @@ form button{
     background-color: #5271FF; ;
     color: white;
 }
-footer{
-    background-color: grey;
+.footer{
+    font-size: 0.7em;
+    background-color:  #5271FF;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 50px;
     color: white;
     padding: 10px;
 }
@@ -131,5 +138,5 @@ footer{
     opacity: 0.8;
 }
 .miniCon{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
