@@ -1,5 +1,7 @@
 *{
-    font-family:'Subjectivity Light';;
+    font-family:'Subjectivity Light';
+    margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
@@ -25,9 +27,11 @@ html{
 }
 h1{
     font-family: 'Patriot Medium' ;
+    padding-bottom: 32px;
 }
 h2{
     margin-top: 10px;
+    padding-bottom: 32px;
 }
 .first{
     margin-bottom: -20px;
@@ -39,12 +43,18 @@ p,li{
     font-size: 1.5em;
     line-height: 30px;
 }
+ul{
+    padding-left: 16px;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 8fr;
     gap: 65px;
 }
-
+.bigcont{
+    display: flex;
+    flex-direction: column;
+}
 .nav{
     background-color: #5271FF;
     color: white;
@@ -142,22 +152,23 @@ form button{
 .icon:hover{
     opacity: 0.8;
 }
-.miniCon{
-    padding-bottom: 10px;
+.miniCon {
+    padding-bottom: 45px;
 }
 
 /* logo */
 .logo{
-    width: 65px;
+    width: 55px;
 }
 .social{
     display: flex;
     gap: 10px;
     align-items: center;
-    margin-left: -77px;
+    margin-left: -65px;
 }
 .social h2{
     margin-bottom: 5px;
+    padding: 0;
 }
 
 @media screen and (max-width:450px) {
